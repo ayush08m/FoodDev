@@ -39,15 +39,21 @@ This app reads data added from a separate **React Web Admin Panel** and displays
 🛠 Setup & Installation
 1️⃣ Clone the repo
 git clone https://github.com/ayush08m/FoodDev.git
+
 cd FoodDev
 
 2️⃣ Install dependencies
+
 npm install
+
 or
+
 yarn install
 
 3️⃣ Firebase configuration
+
 Go to:
+
 src/Firebase/FirebaseConfig.js
 
 Make sure it matches your Firebase project:
@@ -73,14 +79,21 @@ const db = getFirestore(app);
 export { app, auth, db };
 
 🔒 For production, move secrets to environment variables / secure config.
+
 Also in Firebase Console:
+
 Enable Authentication → Email/Password
+
 Create a Firestore database
+
 Create collection FoodData (this is filled via the admin panel).
 
 4️⃣ Run the app (Expo)
+
 npx expo start
+
 Press a to run on Android emulator
+
 Or scan QR with Expo Go on your phone
 
 
@@ -95,20 +108,31 @@ Or scan QR with Expo Go on your phone
 ✨ Future Improvements
 
 Add cart & order flow
+
 Add user profile & order history
+
 Filter / sort food items
+
 Add image upload instead of URL
+
 Integrate payment gateway ( Razorpay / Stripe )
 
 👨‍💻 Author
+
 Ayush More
+
 GitHub: @ayush08m
 
 🔗 Related Project (Admin Panel)
+
 This mobile app gets its food data from my React Web admin panel:
+
 👉 Admin
+
  Panel Repo:
+ 
 https://github.com/ayush08m/fooddevadminpanel
+
 The admin panel lets you add food items (name, price, image URL, category, restaurant info) into the FoodData Firestore collection. Those items are then displayed in this mobile app.
 
 ```bash
