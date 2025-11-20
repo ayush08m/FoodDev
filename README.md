@@ -36,26 +36,6 @@ This app reads data added from a separate **React Web Admin Panel** and displays
 
 ## 📂 Project Structure (simplified)
 
-```bash
-FoodDev/
-  ├─ src/
-  │  ├─ screens/
-  │  │  ├─ HomeScreen.js
-  │  │  ├─ LoginSignupScreens/
-  │  │  │  ├─ LoginScreen.js
-  │  │  │  └─ SignupScreen.js
-  │  ├─ components/
-  │  │  ├─ HomeHeadNav.js
-  │  │  ├─ Categories.js
-  │  │  ├─ OfferSlider.js
-  │  │  └─ Cardslider.js
-  │  ├─ Firebase/
-  │  │  └─ FirebaseConfig.js
-  │  └─ globals/
-  │     └─ style.js
-  ├─ App.js
-  ├─ package.json
-  └─ README.md
 🛠 Setup & Installation
 1️⃣ Clone the repo
 git clone https://github.com/ayush08m/FoodDev.git
@@ -130,3 +110,25 @@ This mobile app gets its food data from my React Web admin panel:
  Panel Repo:
 https://github.com/ayush08m/fooddevadminpanel
 The admin panel lets you add food items (name, price, image URL, category, restaurant info) into the FoodData Firestore collection. Those items are then displayed in this mobile app.
+
+```bash
+FoodDev/
+  ├─ src/
+  │  ├─ screens/
+  │  │  ├─ HomeScreen.js
+  │  │  ├─ LoginSignupScreens/
+  │  │  │  ├─ LoginScreen.js
+  │  │  │  └─ SignupScreen.js
+  │  ├─ components/
+  │  │  ├─ HomeHeadNav.js
+  │  │  ├─ Categories.js
+  │  │  ├─ OfferSlider.js
+  │  │  └─ Cardslider.js
+  │  ├─ Firebase/
+  │  │  └─ FirebaseConfig.js
+  │  └─ globals/
+  │     └─ style.js
+  ├─ App.js
+  ├─ package.json
+  └─ README.md
+
