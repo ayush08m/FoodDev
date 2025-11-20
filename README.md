@@ -34,8 +34,6 @@ This app reads data added from a separate **React Web Admin Panel** and displays
 
 ---
 
-## 📂 Project Structure (simplified)
-
 🛠 Setup & Installation
 1️⃣ Clone the repo
 git clone https://github.com/ayush08m/FoodDev.git
@@ -135,6 +133,7 @@ https://github.com/ayush08m/fooddevadminpanel
 
 The admin panel lets you add food items (name, price, image URL, category, restaurant info) into the FoodData Firestore collection. Those items are then displayed in this mobile app.
 
+## 📂 Project Structure (simplified)
 ```bash
 FoodDev/
   ├─ src/
